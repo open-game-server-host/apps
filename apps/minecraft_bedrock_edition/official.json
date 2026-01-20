@@ -1,0 +1,12 @@
+{
+    "name": "Officlal",
+    "stop_command": "stop",
+    "ports": {
+        "19132": "Connection",
+        "19133": "IPv6 Connection"
+    },
+    "runtime": "debian",
+    "defaut_runtime_image": "debian12",
+    "minimum_segments": 2,
+    "recommended_segments": 3
+}

@@ -1,0 +1,12 @@
+{
+    "name": "PC",
+    "ports": {
+        "8081": "HTTP Server",
+        "8772": "Connection",
+        "9600": "Assetto Corsa"
+    },
+    "runtime": "alpine",
+    "default_runtime_image": "alpine",
+    "minimum_segments": 1,
+    "recommended_segments": 2
+}

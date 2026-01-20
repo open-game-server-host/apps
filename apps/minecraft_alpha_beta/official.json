@@ -1,0 +1,12 @@
+{
+    "name": "Official",
+    "stop_command": "stop",
+    "ports": {
+        "25565": "Connection",
+        "25575": "Rcon"
+    },
+    "runtime": "java",
+    "default_runtime_image": "java8",
+    "minimum_segments": 1,
+    "recommended_segments": 2
+}

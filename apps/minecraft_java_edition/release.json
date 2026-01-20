@@ -1,0 +1,56 @@
+{
+    "name": "Release",
+    "stop_command": "stop",
+    "ports": {
+        "25565": "Connection",
+        "25575": "Rcon"
+    },
+    "runtime": "jvm",
+    "default_runtime_image": "java8",
+    "minimum_segments": 2,
+    "recommended_segments": 3,
+    "anchor_versions": [
+        {
+            "default_runtime_image": "java8",
+            "minimum_segments": 2,
+            "name": "1.2.5",
+            "recommended_segments": 3,
+            "supported_runtime_images": [
+                "java8",
+                "java11",
+                "java17"
+            ]
+        },
+        {
+            "default_runtime_image": "java8",
+            "minimum_segments": 3,
+            "name": "1.9",
+            "recommended_segments": 4,
+            "supported_runtime_images": [
+                "java8",
+                "java11",
+                "java17"
+            ]
+        },
+        {
+            "default_runtime_image": "java8",
+            "minimum_segments": 4,
+            "name": "1.13",
+            "recommended_segments": 5,
+            "supported_runtime_images": [
+                "java8",
+                "java11",
+                "java17"
+            ]
+        },
+        {
+            "default_runtime_image": "java17",
+            "minimum_segments": 4,
+            "name": "1.17",
+            "recommended_segments": 5,
+            "supported_runtime_images": [
+                "java17"
+            ]
+        }
+    ]
+}

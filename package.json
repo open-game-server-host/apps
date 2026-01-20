@@ -1,0 +1,9 @@
+{
+  "name": "apps",
+  "version": "1.0.0",
+  "main": "compile.js",
+  "type": "module",
+  "scripts": {
+    "bundle": "node bundle.js"
+  }
+}
