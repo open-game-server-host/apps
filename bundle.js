@@ -1,4 +1,4 @@
-import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 
 function readJsonFile(path) {
     return JSON.parse(readFileSync(path).toString());
@@ -74,4 +74,5 @@ function parseVersion(appId, variantId, versionId) {
     return readJsonFile(`apps/${appId}/${variantId}/${versionId}.json`);
 }
 
-writeFileSync("apps.json", JSON.stringify(parseApps()));
+mkdirSync("output");
+writeFileSync("output/apps.json", JSON.stringify(parseApps()));
