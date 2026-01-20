@@ -76,5 +76,6 @@ function parseVersion(appId, variantId, versionId) {
 
 mkdirSync("output", { recursive: true });
 writeFileSync("output/apps.json", JSON.stringify(parseApps()));
+console.log();
 console.log("Written apps.json");
 console.log();

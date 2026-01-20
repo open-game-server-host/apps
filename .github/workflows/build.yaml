@@ -24,6 +24,7 @@ jobs:
     - name: Bundle and upload
       run: |
         node bundle.js
+        git add .
         git commit . -m "Auto-bundle"
         git status
         git push
