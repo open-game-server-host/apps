@@ -24,6 +24,6 @@ jobs:
     - name: Bundle and upload
       run: |
         node bundle.js
-        git add .
+        git commit .
         git status
         git push
