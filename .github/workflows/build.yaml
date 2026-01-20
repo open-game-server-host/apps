@@ -21,10 +21,9 @@ jobs:
         git config user.email "<>"
     - name: Set up Node
       uses: actions/setup-node@v6
-    - name: Bundle
-      run: node bundle.js
-    - name: Upload
+    - name: Bundle and upload
       run: |
+        node bundle.js
         git add .
         git status
         git push
