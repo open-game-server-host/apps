@@ -74,5 +74,5 @@ function parseVersion(appId, variantId, versionId) {
     return readJsonFile(`apps/${appId}/${variantId}/${versionId}.json`);
 }
 
-mkdirSync("output");
+mkdirSync("output", { recursive: true });
 writeFileSync("output/apps.json", JSON.stringify(parseApps()));
