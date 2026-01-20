@@ -26,4 +26,5 @@ jobs:
     - name: Upload
       run: |
         git add .
+        git status
         git push
