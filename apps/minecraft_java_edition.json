@@ -2,5 +2,5 @@
     "name": "Minecraft: Java Edition",
     "description": "Prepare for an adventure of limitless possibilities as you build, mine, battle mobs, and explore the ever-changing Minecraft landscape.",
     "coming_soon": false,
-    "default_variant": "release"
+    "default_variant": "vanilla"
 }

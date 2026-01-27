@@ -4,6 +4,5 @@
   "main": "compile.js",
   "type": "module",
   "scripts": {
-    "bundle": "node bundle.js"
   }
 }

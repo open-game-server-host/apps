@@ -1,5 +1,5 @@
 {
-    "name": "Release",
+    "name": "Vanilla",
     "stop_command": "stop",
     "ports": {
         "25565": "Connection",

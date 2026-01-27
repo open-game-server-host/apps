@@ -1,0 +1,30 @@
+name: apps
+
+on:
+  push:
+    branches:
+    - '*'
+    paths-ignore:
+    - 'output/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Set up git
+      run: |
+        git config user.name "Apps bundler"
+        git config user.email "<>"
+    - name: Set up Node
+      uses: actions/setup-node@v6
+    - name: Bundle and upload
+      run: |
+        node bundleApps.js
+        git add .
+        git commit . -m "Bundle apps.json"
+        git status
+        git push
