@@ -1,4 +1,5 @@
-import { cpSync, existsSync, lstatSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import childProcess from "node:child_process";
+import { cpSync, existsSync, lstatSync, mkdirSync, readdirSync, rmSync } from "node:fs";
 
 rmSync("output/startup_files", { recursive: true, force: true });
 mkdirSync("output/startup_files");
@@ -28,6 +29,11 @@ for (const appFolder of readdirSync("apps")) {
     }
 }
 
-console.log();
-console.log("Bundled startup files to output/startup_files");
-console.log();
+const child = childProcess.exec("cd output/startup_files && tar cf ../startup_files.tar .");
+child.stdout.pipe(process.stdout);
+child.stderr.pipe(process.stderr);
+child.on("exit", () => {
+    console.log();
+    console.log("Bundled startup files to output/startup_files.tar");
+    console.log();
+});
