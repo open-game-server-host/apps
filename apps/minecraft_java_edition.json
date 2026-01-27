@@ -2,5 +2,8 @@
     "name": "Minecraft: Java Edition",
     "description": "Prepare for an adventure of limitless possibilities as you build, mine, battle mobs, and explore the ever-changing Minecraft landscape.",
     "coming_soon": false,
-    "default_variant": "vanilla"
+    "default_variant": "vanilla",
+    "environment_variables": {
+        "CONFIG_MAX_RAM_PERCENTAGE": "80.0"
+    }
 }
