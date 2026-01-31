@@ -3,8 +3,8 @@
     "current_build": 1,
     "current_build_file_hashes": [],
     "current_build_info": "",
-    "default_runtime_image": "java25",
-    "supported_runtime_images": [
+    "default_docker_image": "java25",
+    "supported_docker_images": [
         "java25"
     ],
     "minimum_segments": 4,

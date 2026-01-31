@@ -2,7 +2,7 @@
     "name": "PC",
     "ports": {},
     "runtime": "alpine",
-    "default_runtime_image": "alpine",
+    "default_docker_image": "alpine",
     "minimum_segments": 8,
     "recommended_segments": 12
 }
