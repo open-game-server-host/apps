@@ -6,7 +6,10 @@
         "19133": "IPv6 Connection"
     },
     "runtime": "debian",
-    "defaut_runtime_image": "debian12",
+    "defaut_docker_image": "debian12",
+    "supported_docker_images": [
+        "debian12"
+    ],
     "minimum_segments": 2,
     "recommended_segments": 3
 }

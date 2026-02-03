@@ -5,6 +5,9 @@
     },
     "runtime": "wine",
     "default_docker_image": "wine",
+    "supported_docker_images": [
+        "wine"
+    ],
     "minimum_segments": 2,
     "recommended_segments": 4
 }

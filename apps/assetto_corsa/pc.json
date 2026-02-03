@@ -7,6 +7,9 @@
     },
     "runtime": "alpine",
     "default_docker_image": "alpine",
+    "supported_docker_images": [
+        "alpine"
+    ],
     "minimum_segments": 1,
     "recommended_segments": 2
 }

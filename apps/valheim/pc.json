@@ -3,6 +3,9 @@
     "ports": {},
     "runtime": "alpine",
     "default_docker_image": "alpine",
+    "supported_docker_images": [
+        "alpine"
+    ],
     "minimum_segments": 8,
     "recommended_segments": 12
 }
