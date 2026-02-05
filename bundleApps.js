@@ -79,7 +79,6 @@ function parseVariant(appId, variantId) {
     }
     unsortedVersions.sort((a, b) => a.order - b.order).forEach(version => {
         const { id } = version;
-        console.log(`${id} order = ${version.order}`);
         delete version.id;
         versions[id] = version;
     });
