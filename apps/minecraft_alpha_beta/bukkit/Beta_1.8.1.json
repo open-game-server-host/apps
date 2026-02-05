@@ -1,0 +1,15 @@
+{
+    "current_build": 1,
+    "current_build_file_hashes": {
+        "app.jar": "190288be33f37fd1879630de6819044c"
+    },
+    "current_build_info": "",
+    "default_docker_image": "java8",
+    "minimum_segments": 1,
+    "name": "Beta 1.8.1",
+    "recommended_segments": 2,
+    "supported_docker_images": [
+        "java8"
+    ],
+    "order": 6
+}
