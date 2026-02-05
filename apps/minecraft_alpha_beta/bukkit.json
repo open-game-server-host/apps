@@ -11,5 +11,6 @@
         "java8"
     ],
     "minimum_segments": 1,
-    "recommended_segments": 2
+    "recommended_segments": 2,
+    "order": 1
 }

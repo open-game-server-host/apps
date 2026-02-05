@@ -42,5 +42,6 @@
         "java21",
         "java25"
     ],
-    "default_docker_image": "java21"
+    "default_docker_image": "java21",
+    "order": 79
 }

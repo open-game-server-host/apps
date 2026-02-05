@@ -29,6 +29,7 @@ function parseApps() {
 function parseApp(appId) {
     const data = readJsonFile(`apps/${appId}.json`);
 
+    const unsortedVariants = [];
     const variants = {};
     const variantsPath = `apps/${appId}`;
     if (existsSync(variantsPath)) {
@@ -40,10 +41,17 @@ function parseApp(appId) {
             console.log(`${appId}/${variantId}`);
             const variantData = parseVariant(appId, variantId);
             if (variantData) {
-                variants[variantId] = variantData;
+                variantData.id = variantId;
+                unsortedVariants.push(variantData);
+                // variants[variantId] = variantData;
             }
         }
     }
+    unsortedVariants.sort((a, b) => a.order - b.order).forEach(variant => {
+        const { id } = variant;
+        delete variant.id;
+        variants[id] = variant;
+    });
     data.variants = variants;
     return data;
 }
@@ -51,6 +59,7 @@ function parseApp(appId) {
 function parseVariant(appId, variantId) {
     const data = readJsonFile(`apps/${appId}/${variantId}.json`);
 
+    const unsortedVersions = [];
     const versions = {};
     const versionsPath = `apps/${appId}/${variantId}`;
     if (existsSync(versionsPath)) {
@@ -62,10 +71,18 @@ function parseVariant(appId, variantId) {
             console.log(`${appId}/${variantId}/${versionId}`);
             const versionData = parseVersion(appId, variantId, versionId);
             if (versionData) {
-                versions[versionId] = versionData;
+                versionData.id = versionId;
+                unsortedVersions.push(versionData);
+                // versions[versionId] = versionData;
             }
         }
     }
+    unsortedVersions.sort((a, b) => a.order - b.order).forEach(version => {
+        const { id } = version;
+        console.log(`${id} order = ${version.order}`);
+        delete version.id;
+        versions[id] = version;
+    });
     data.versions = versions;
     return data;
 }

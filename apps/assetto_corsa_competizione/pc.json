@@ -9,5 +9,6 @@
         "wine"
     ],
     "minimum_segments": 2,
-    "recommended_segments": 4
+    "recommended_segments": 4,
+    "order": 0
 }

@@ -11,5 +11,6 @@
         "debian12"
     ],
     "minimum_segments": 2,
-    "recommended_segments": 3
+    "recommended_segments": 3,
+    "order": 0
 }
