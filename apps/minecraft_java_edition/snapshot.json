@@ -8,7 +8,11 @@
     "runtime": "jvm",
     "default_docker_image": "java8",
     "supported_docker_images": [
-        "java8"
+        "java8",
+        "java11",
+        "java17",
+        "java21",
+        "java25"
     ],
     "minimum_segments": 2,
     "recommended_segments": 3,
