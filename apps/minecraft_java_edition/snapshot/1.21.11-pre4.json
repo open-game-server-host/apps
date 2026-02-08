@@ -44,14 +44,11 @@
         "versions/1.21.11-pre4/server-1.21.11-pre4.jar": "2c1941b24bf5b35674f0a0c8d9c5a08e"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/db1a9f24a4610f2f71e8991c11f70a4b62750c1b/server.jar",
-    "default_docker_image": "java8",
+    "default_docker_image": "java21",
     "minimum_segments": 2,
     "name": "1.21.11-pre4",
     "recommended_segments": 3,
     "supported_docker_images": [
-        "java8",
-        "java11",
-        "java17",
         "java21",
         "java25"
     ],

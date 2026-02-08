@@ -49,14 +49,11 @@
         "versions/1.21.9-pre1/server-1.21.9-pre1.jar": "3cca3c4f232cc033c93a21b9cc442a8d"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/151da8959852dfbd1b20efbad31645b95cc8ba31/server.jar",
-    "default_docker_image": "java8",
+    "default_docker_image": "java21",
     "minimum_segments": 2,
     "name": "1.21.9-pre1",
     "recommended_segments": 3,
     "supported_docker_images": [
-        "java8",
-        "java11",
-        "java17",
         "java21",
         "java25"
     ],
