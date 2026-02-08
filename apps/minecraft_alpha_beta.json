@@ -2,5 +2,8 @@
     "name": "Minecraft Alpha & Beta",
     "description": "Bring back the golden age of Minecraft from 2010, and experience the nostalgia with your friends!",
     "coming_soon": false,
-    "default_variant": "Official"
+    "default_variant": "Official",
+    "environment_variables": {
+        "CONFIG_MAX_RAM_PERCENTAGE": "80.0"
+    }
 }
