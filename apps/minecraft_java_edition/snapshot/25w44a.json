@@ -44,14 +44,11 @@
         "versions/25w44a/server-25w44a.jar": "dd53083fca7b778b6b308c724e76bae9"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/1ade1ebd6affbfed6dbfb2ce8864cf19efed07ba/server.jar",
-    "default_docker_image": "java8",
+    "default_docker_image": "java21",
     "minimum_segments": 2,
     "name": "25w44a",
     "recommended_segments": 3,
     "supported_docker_images": [
-        "java8",
-        "java11",
-        "java17",
         "java21",
         "java25"
     ],

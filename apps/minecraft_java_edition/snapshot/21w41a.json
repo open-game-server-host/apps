@@ -1,0 +1,37 @@
+{
+    "current_build": 1,
+    "current_build_file_hashes": {
+        "app.jar": "c3b7b61945a153927e16477b733e8637",
+        "libraries/com/github/oshi/oshi-core/5.7.5/oshi-core-5.7.5.jar": "5a44510af84663b56f6daca334f8e059",
+        "libraries/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar": "144c0767e2aaf0c21a935908d0e52c68",
+        "libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar": "a42f1f5bfa4e6f123ddcab3de7e0ff81",
+        "libraries/com/google/guava/guava/21.0/guava-21.0.jar": "ddc91fd850fa6177c91aab5d4e4d1fa6",
+        "libraries/com/mojang/authlib/3.1.36/authlib-3.1.36.jar": "0b0a7d96081c363701086a0dff79e4e8",
+        "libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar": "5abfdce5dcec9ce29769b28aa455a6fb",
+        "libraries/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar": "2fed12ebc12229db27ac65d998622ba0",
+        "libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar": "636482f086e794f2cb227672828392fa",
+        "libraries/commons-io/commons-io/2.5/commons-io-2.5.jar": "e2d74794fba570ec2115fb9d5b05dc9b",
+        "libraries/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar": "d1912410fe536c1cc35da23c4fb103c8",
+        "libraries/it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar": "88e74520ae74725653d595c4462f2ce1",
+        "libraries/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar": "3e1988240662c4f068e8ff5df505f6a0",
+        "libraries/net/java/dev/jna/jna-platform/5.8.0/jna-platform-5.8.0.jar": "9aeec8baa295ea5b93efb461228d77da",
+        "libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar": "0a5ec84e23df9d7cfb4063bc55f2744c",
+        "libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar": "780b5a8b72eebe6d0dbff1c11b5658fa",
+        "libraries/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar": "6f31a3b90c3eb09fb0dc0aef155a001c",
+        "libraries/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar": "948dda787593340a7af1a18e328b7b7f",
+        "libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.14.1/log4j-slf4j18-impl-2.14.1.jar": "fde08727db8093ad51831f292782fb35",
+        "libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar": "e8147675316a5bc78d1ba5d8cdb9e578",
+        "versions/21w41a/server-21w41a.jar": "f45ce7f72f4a94af63a72a5658b00426"
+    },
+    "current_build_info": "https://piston-data.mojang.com/v1/objects/8eab49e576b21d6babfc60dcd14c68fac4926ab3/server.jar",
+    "default_docker_image": "java17",
+    "minimum_segments": 2,
+    "name": "21w41a",
+    "recommended_segments": 3,
+    "supported_docker_images": [
+        "java17",
+        "java21",
+        "java25"
+    ],
+    "order": 458
+}
