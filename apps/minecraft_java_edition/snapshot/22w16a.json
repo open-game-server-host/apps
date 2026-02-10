@@ -1,0 +1,19 @@
+{
+    "current_build": 1,
+    "current_build_file_hashes": {
+        "app.jar": "874895331fbbb78eb40174790b48f1bd"
+    },
+    "current_build_info": "https://piston-data.mojang.com/v1/objects/8ac6c67599bd30009fdc2f9d0174419b0bc19f8b/server.jar",
+    "default_docker_image": "java8",
+    "minimum_segments": 2,
+    "name": "22w16a",
+    "recommended_segments": 3,
+    "supported_docker_images": [
+        "java8",
+        "java11",
+        "java17",
+        "java21",
+        "java25"
+    ],
+    "order": 492
+}
