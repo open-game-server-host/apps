@@ -1,0 +1,19 @@
+{
+    "current_build": 1,
+    "current_build_file_hashes": {
+        "app.jar": "10856b089c985c96016c91d655292dbf"
+    },
+    "current_build_info": "https://launcher.mojang.com/v1/objects/27fb956fd88ab39205c7c45a39ca4e8820f96cc4/server.jar",
+    "default_docker_image": "java8",
+    "minimum_segments": 2,
+    "name": "1.8-pre3",
+    "recommended_segments": 3,
+    "supported_docker_images": [
+        "java8",
+        "java11",
+        "java17",
+        "java21",
+        "java25"
+    ],
+    "order": 109
+}
