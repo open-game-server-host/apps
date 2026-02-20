@@ -48,11 +48,11 @@
         "versions/1.21.8-rc1/server-1.21.8-rc1.jar": "69aa156d019b51fe744727245736e60b"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/592535d9bcdb38db40da2d0033ce8494d1ef50d9/server.jar",
-    "default_docker_image": "java21",
+    "default_runtime": "java21",
     "minimum_segments": 3,
     "name": "1.21.8-rc1",
     "recommended_segments": 4,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java21",
         "java25"
     ],

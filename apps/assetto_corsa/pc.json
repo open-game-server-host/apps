@@ -6,8 +6,8 @@
         "9600": "Assetto Corsa"
     },
     "runtime": "alpine",
-    "default_docker_image": "alpine",
-    "supported_docker_images": [
+    "default_runtime": "alpine",
+    "supported_runtimes": [
         "alpine"
     ],
     "minimum_segments": 1,

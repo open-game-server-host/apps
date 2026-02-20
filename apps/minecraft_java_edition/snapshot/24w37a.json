@@ -48,11 +48,11 @@
         "versions/24w37a/server-24w37a.jar": "55f30b0dfd095d0a617387e1bc8c3eec"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/4ba5f8917ac400474751b6e0f20d311d3b726fe7/server.jar",
-    "default_docker_image": "java21",
+    "default_runtime": "java21",
     "minimum_segments": 3,
     "name": "24w37a",
     "recommended_segments": 4,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java21",
         "java25"
     ],

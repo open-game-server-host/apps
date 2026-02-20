@@ -24,11 +24,11 @@
         "versions/21w40a/server-21w40a.jar": "d27a381746fe80d57e69afbb0007321f"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/84496ec4beeeae34a448b99f3e3d890066f6807f/server.jar",
-    "default_docker_image": "java17",
+    "default_runtime": "java17",
     "minimum_segments": 3,
     "name": "21w40a",
     "recommended_segments": 4,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java17",
         "java21",
         "java25"

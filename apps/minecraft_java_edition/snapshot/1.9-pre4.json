@@ -4,11 +4,11 @@
         "app.jar": "4d4c91aa60ea19720fdbb961ee995675"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/bbcbe9f89ef3cacd96dfd1df4d88588369fbd767/server.jar",
-    "default_docker_image": "java8",
+    "default_runtime": "java8",
     "minimum_segments": 2,
     "name": "1.9-pre4",
     "recommended_segments": 3,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java8",
         "java11",
         "java17",

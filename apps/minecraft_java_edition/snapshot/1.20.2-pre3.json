@@ -34,11 +34,11 @@
         "versions/1.20.2-pre3/server-1.20.2-pre3.jar": "03fde53a84345da5f7d489f712a6899a"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/3d2eecdda5f6c7260d73aa5c2e5ce1a42e0f24e4/server.jar",
-    "default_docker_image": "java17",
+    "default_runtime": "java17",
     "minimum_segments": 3,
     "name": "1.20.2-pre3",
     "recommended_segments": 4,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java17",
         "java21",
         "java25"

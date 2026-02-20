@@ -35,11 +35,11 @@
         "versions/24w21b/server-24w21b.jar": "3f28de22b14e39e612d1402c6dbb53e2"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/743d74805b64f83052fe449993f42182f76b129e/server.jar",
-    "default_docker_image": "java21",
+    "default_runtime": "java21",
     "minimum_segments": 3,
     "name": "24w21b",
     "recommended_segments": 4,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java21",
         "java25"
     ],

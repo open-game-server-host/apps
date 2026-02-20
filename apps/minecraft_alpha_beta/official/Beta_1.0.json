@@ -4,11 +4,11 @@
         "app.jar": "3c233af853ac30baa6004da6d92bd05d"
     },
     "current_build_info": "",
-    "default_docker_image": "java8",
+    "default_runtime": "java8",
     "minimum_segments": 1,
     "name": "Beta 1.0",
     "recommended_segments": 2,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java8"
     ],
     "order": 11

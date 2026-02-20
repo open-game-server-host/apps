@@ -34,11 +34,11 @@
         "versions/1.19.4-pre4/server-1.19.4-pre4.jar": "a15c29a698879be9dd4852d10f11b65d"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/711aa1f63c20650789e9740d66ff55c3e8e4f2ae/server.jar",
-    "default_docker_image": "java17",
+    "default_runtime": "java17",
     "minimum_segments": 3,
     "name": "1.19.4-pre4",
     "recommended_segments": 4,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java17",
         "java21",
         "java25"

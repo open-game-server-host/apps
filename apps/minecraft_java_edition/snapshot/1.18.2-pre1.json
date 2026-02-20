@@ -25,11 +25,11 @@
         "versions/1.18.2-pre1/server-1.18.2-pre1.jar": "7c86bd000206b1e881569da68db86581"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/c3e2734bafdb017efab854b01c66dd795722a332/server.jar",
-    "default_docker_image": "java17",
+    "default_runtime": "java17",
     "minimum_segments": 3,
     "name": "1.18.2-pre1",
     "recommended_segments": 4,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java17",
         "java21",
         "java25"

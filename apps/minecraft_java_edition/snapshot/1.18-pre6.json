@@ -24,11 +24,11 @@
         "versions/1.18-pre6/server-1.18-pre6.jar": "854af62e074aed7ccaef469283af36d4"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/97b1c53df11cb8b973f4b522c8f4963b7e31495e/server.jar",
-    "default_docker_image": "java17",
+    "default_runtime": "java17",
     "minimum_segments": 3,
     "name": "1.18-pre6",
     "recommended_segments": 4,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java17",
         "java21",
         "java25"

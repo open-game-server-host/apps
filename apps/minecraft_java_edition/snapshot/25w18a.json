@@ -48,11 +48,11 @@
         "versions/25w18a/server-25w18a.jar": "25a641c3c0050d5b8b793ae1e94bcf75"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/e69d69f1817f6c52f6ad2ca73ee1ef8a6903e560/server.jar",
-    "default_docker_image": "java21",
+    "default_runtime": "java21",
     "minimum_segments": 3,
     "name": "25w18a",
     "recommended_segments": 4,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java21",
         "java25"
     ],

@@ -35,11 +35,11 @@
         "versions/24w05b/server-24w05b.jar": "3bc513b38e81799ba6299c1f2e0dff90"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/189526bf25c06f7c0071aa637bc5f3668a6457d4/server.jar",
-    "default_docker_image": "java17",
+    "default_runtime": "java17",
     "minimum_segments": 3,
     "name": "24w05b",
     "recommended_segments": 4,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java17",
         "java21",
         "java25"

@@ -4,11 +4,11 @@
         "app.jar": "eca401ff4f8466645c222dce9471df66"
     },
     "current_build_info": "https://launcher.mojang.com/v1/objects/35c59e16d1f3b751cd20b76b9b8a19045de363a9/server.jar",
-    "default_docker_image": "java8",
+    "default_runtime": "java8",
     "minimum_segments": 2,
     "name": "1.8.7",
     "recommended_segments": 3,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java8"
     ],
     "order": 29

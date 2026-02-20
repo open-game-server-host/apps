@@ -48,11 +48,11 @@
         "versions/1.21.6/server-1.21.6.jar": "a89d6fe709516c4484bb39957da005cc"
     },
     "current_build_info": "https://piston-data.mojang.com/v1/objects/6e64dcabba3c01a7271b4fa6bd898483b794c59b/server.jar",
-    "default_docker_image": "java21",
+    "default_runtime": "java21",
     "minimum_segments": 3,
     "name": "1.21.6",
     "recommended_segments": 4,
-    "supported_docker_images": [
+    "supported_runtimes": [
         "java21",
         "java25"
     ],

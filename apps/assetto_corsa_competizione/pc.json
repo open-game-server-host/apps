@@ -4,8 +4,8 @@
         "9001": "Connection"
     },
     "runtime": "wine",
-    "default_docker_image": "wine",
-    "supported_docker_images": [
+    "default_runtime": "wine",
+    "supported_runtimes": [
         "wine"
     ],
     "minimum_segments": 2,
