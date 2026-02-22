@@ -1,20 +1,20 @@
 {
     "name": "Snapshot",
-    "stop_command": "stop",
+    "stopCommand": "stop",
     "ports": {
         "25565": "Connection",
         "25575": "Rcon"
     },
     "runtime": "jvm",
-    "default_runtime": "java8",
-    "supported_runtimes": [
+    "defaultRuntime": "java8",
+    "supportedRuntimes": [
         "java8",
         "java11",
         "java17",
         "java21",
         "java25"
     ],
-    "minimum_segments": 2,
-    "recommended_segments": 3,
+    "minimumSegments": 2,
+    "recommendedSegments": 3,
     "order": 0
 }

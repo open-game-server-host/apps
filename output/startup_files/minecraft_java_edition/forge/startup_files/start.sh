@@ -14,7 +14,7 @@ fi
 MAX_MEMORY=$(cat /sys/fs/cgroup/memory.max)
 MAX_MEMORY=$((MAX_MEMORY-20000000))
 if [ ! -f "$WORKDIR/app.jar" ]; then
-    cd "$WORKDIR" && java -XX:MaxRAM=$MAX_MEMORY -XX:MaxRAMPercentage=$CONFIG_MAX_RAM_PERCENTAGE @libraries/net/minecraftforge/forge/$CURRENT_BUILD_INFO/unix_args.txt "$@"
+    cd "$WORKDIR" && java -XX:MaxRAM=$MAX_MEMORY -XX:MaxRAMPercentage=$CONFIG_MAX_RAM_PERCENTAGE @libraries/net/minecraftforge/forge/$currentBuildInfo/unix_args.txt "$@"
 else
     cd "$WORKDIR" && java -XX:MaxRAM=$MAX_MEMORY -XX:MaxRAMPercentage=$CONFIG_MAX_RAM_PERCENTAGE -jar app.jar
 fi

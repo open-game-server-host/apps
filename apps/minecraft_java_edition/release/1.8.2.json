@@ -1,14 +1,14 @@
 {
-    "current_build": 1,
-    "current_build_file_hashes": {
+    "currentBuild": 1,
+    "currentBuildFileHashes": {
         "app.jar": "3db95670fecef0ec378db9ce65bf0ef4"
     },
-    "current_build_info": "https://launcher.mojang.com/v1/objects/a37bdd5210137354ed1bfe3dac0a5b77fe08fe2e/server.jar",
-    "default_runtime": "java8",
-    "minimum_segments": 2,
+    "currentBuildInfo": "https://launcher.mojang.com/v1/objects/a37bdd5210137354ed1bfe3dac0a5b77fe08fe2e/server.jar",
+    "defaultRuntime": "java8",
+    "minimumSegments": 2,
     "name": "1.8.2",
-    "recommended_segments": 3,
-    "supported_runtimes": [
+    "recommendedSegments": 3,
+    "supportedRuntimes": [
         "java8"
     ],
     "order": 24

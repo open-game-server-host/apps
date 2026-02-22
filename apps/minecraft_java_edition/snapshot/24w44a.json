@@ -1,6 +1,6 @@
 {
-    "current_build": 1,
-    "current_build_file_hashes": {
+    "currentBuild": 1,
+    "currentBuildFileHashes": {
         "app.jar": "b4b32c3bcce50b4d4803d9bab94234e9",
         "libraries/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar": "7e982dafcf25c24b365b5088eaf8a0a6",
         "libraries/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar": "e8f064827ddb8deb06e45d20988bcaa5",
@@ -47,12 +47,12 @@
         "libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar": "45630e54b0f0ac2b3c80462515ad8fda",
         "versions/24w44a/server-24w44a.jar": "e5b3f3b1ec43bd168621ec5747704350"
     },
-    "current_build_info": "https://piston-data.mojang.com/v1/objects/5d233307681e1b46dfd4fba4f022c1cac2b58e60/server.jar",
-    "default_runtime": "java21",
-    "minimum_segments": 3,
+    "currentBuildInfo": "https://piston-data.mojang.com/v1/objects/5d233307681e1b46dfd4fba4f022c1cac2b58e60/server.jar",
+    "defaultRuntime": "java21",
+    "minimumSegments": 3,
     "name": "24w44a",
-    "recommended_segments": 4,
-    "supported_runtimes": [
+    "recommendedSegments": 4,
+    "supportedRuntimes": [
         "java21",
         "java25"
     ],

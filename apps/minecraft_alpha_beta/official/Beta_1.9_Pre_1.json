@@ -1,14 +1,14 @@
 {
-    "current_build": 1,
-    "current_build_file_hashes": {
+    "currentBuild": 1,
+    "currentBuildFileHashes": {
         "app.jar": "d4bcdbd0d4e75c96d0804b8a1f7ba527"
     },
-    "current_build_info": "",
-    "default_runtime": "java8",
-    "minimum_segments": 1,
+    "currentBuildInfo": "",
+    "defaultRuntime": "java8",
+    "minimumSegments": 1,
     "name": "Beta 1.9 Pre 1",
-    "recommended_segments": 2,
-    "supported_runtimes": [
+    "recommendedSegments": 2,
+    "supportedRuntimes": [
         "java8"
     ],
     "order": 38

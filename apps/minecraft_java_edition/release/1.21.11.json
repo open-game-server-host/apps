@@ -1,6 +1,6 @@
 {
-    "current_build": 1,
-    "current_build_file_hashes": {
+    "currentBuild": 1,
+    "currentBuildFileHashes": {
         "app.jar": "25c0d728d812c3512e6d84d62aa0b320",
         "libraries/at/yawk/lz4/lz4-java/1.8.1/lz4-java-1.8.1.jar": "e6739b208e974a11b6c653ececb0443d",
         "libraries/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar": "2d77c261ef8a9812efc15fcca22af984",
@@ -43,12 +43,12 @@
         "libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar": "b6480d114a23683498ac3f746f959d2f",
         "versions/1.21.11/server-1.21.11.jar": "34ae9f9ebf5b462d3c23965d3b0d11fd"
     },
-    "current_build_info": "https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar",
-    "default_runtime": "java21",
-    "minimum_segments": 3,
+    "currentBuildInfo": "https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar",
+    "defaultRuntime": "java21",
+    "minimumSegments": 3,
     "name": "1.21.11",
-    "recommended_segments": 4,
-    "supported_runtimes": [
+    "recommendedSegments": 4,
+    "supportedRuntimes": [
         "java21",
         "java25"
     ],

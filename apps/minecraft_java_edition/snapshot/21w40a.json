@@ -1,6 +1,6 @@
 {
-    "current_build": 1,
-    "current_build_file_hashes": {
+    "currentBuild": 1,
+    "currentBuildFileHashes": {
         "app.jar": "4e5eb69ee52f97bedc7fee7c4d867da5",
         "libraries/com/github/oshi/oshi-core/5.7.5/oshi-core-5.7.5.jar": "5a44510af84663b56f6daca334f8e059",
         "libraries/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar": "144c0767e2aaf0c21a935908d0e52c68",
@@ -23,12 +23,12 @@
         "libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar": "e8147675316a5bc78d1ba5d8cdb9e578",
         "versions/21w40a/server-21w40a.jar": "d27a381746fe80d57e69afbb0007321f"
     },
-    "current_build_info": "https://piston-data.mojang.com/v1/objects/84496ec4beeeae34a448b99f3e3d890066f6807f/server.jar",
-    "default_runtime": "java17",
-    "minimum_segments": 3,
+    "currentBuildInfo": "https://piston-data.mojang.com/v1/objects/84496ec4beeeae34a448b99f3e3d890066f6807f/server.jar",
+    "defaultRuntime": "java17",
+    "minimumSegments": 3,
     "name": "21w40a",
-    "recommended_segments": 4,
-    "supported_runtimes": [
+    "recommendedSegments": 4,
+    "supportedRuntimes": [
         "java17",
         "java21",
         "java25"

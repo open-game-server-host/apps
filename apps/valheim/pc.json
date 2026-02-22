@@ -2,10 +2,10 @@
     "name": "PC",
     "ports": {},
     "runtime": "alpine",
-    "default_runtime": "alpine",
-    "supported_runtimes": [
+    "defaultRuntime": "alpine",
+    "supportedRuntimes": [
         "alpine"
     ],
-    "minimum_segments": 8,
-    "recommended_segments": 12
+    "minimumSegments": 8,
+    "recommendedSegments": 12
 }

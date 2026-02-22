@@ -1,16 +1,16 @@
 {
     "name": "Officlal",
-    "stop_command": "stop",
+    "stopCommand": "stop",
     "ports": {
         "19132": "Connection",
         "19133": "IPv6 Connection"
     },
     "runtime": "debian",
-    "defaut_runtime": "debian12",
-    "supported_runtimes": [
+    "defaultRuntime": "debian12",
+    "supportedRuntimes": [
         "debian12"
     ],
-    "minimum_segments": 2,
-    "recommended_segments": 3,
+    "minimumSegments": 2,
+    "recommendedSegments": 3,
     "order": 0
 }

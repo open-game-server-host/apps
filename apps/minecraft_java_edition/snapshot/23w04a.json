@@ -1,6 +1,6 @@
 {
-    "current_build": 1,
-    "current_build_file_hashes": {
+    "currentBuild": 1,
+    "currentBuildFileHashes": {
         "app.jar": "d4478bed695a095dc2286dab7e7c07f5",
         "libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar": "29b5d8d14f4dfc3f84731247a58927bf",
         "libraries/com/google/code/gson/gson/2.10/gson-2.10.jar": "76644f361fe16dc8026486635d157b39",
@@ -33,12 +33,12 @@
         "libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar": "f83e57c047d1e3e226b77abc9141d233",
         "versions/23w04a/server-23w04a.jar": "a602d384861db251281cd1cbd1398ade"
     },
-    "current_build_info": "https://piston-data.mojang.com/v1/objects/2f31a8584ec1e70abd2d8b22d976feb52a6a3e31/server.jar",
-    "default_runtime": "java17",
-    "minimum_segments": 3,
+    "currentBuildInfo": "https://piston-data.mojang.com/v1/objects/2f31a8584ec1e70abd2d8b22d976feb52a6a3e31/server.jar",
+    "defaultRuntime": "java17",
+    "minimumSegments": 3,
     "name": "23w04a",
-    "recommended_segments": 4,
-    "supported_runtimes": [
+    "recommendedSegments": 4,
+    "supportedRuntimes": [
         "java17",
         "java21",
         "java25"

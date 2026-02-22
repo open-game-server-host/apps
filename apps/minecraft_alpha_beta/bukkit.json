@@ -1,16 +1,16 @@
 {
     "name": "Bukkit",
-    "stop_command": "stop",
+    "stopCommand": "stop",
     "ports": {
         "25565": "Connection",
         "25575": "Rcon"
     },
     "runtime": "java",
-    "default_runtime": "java8",
-    "supported_runtimes": [
+    "defaultRuntime": "java8",
+    "supportedRuntimes": [
         "java8"
     ],
-    "minimum_segments": 1,
-    "recommended_segments": 2,
+    "minimumSegments": 1,
+    "recommendedSegments": 2,
     "order": 1
 }

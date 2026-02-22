@@ -4,11 +4,11 @@
         "9001": "Connection"
     },
     "runtime": "wine",
-    "default_runtime": "wine",
-    "supported_runtimes": [
+    "defaultRuntime": "wine",
+    "supportedRuntimes": [
         "wine"
     ],
-    "minimum_segments": 2,
-    "recommended_segments": 4,
+    "minimumSegments": 2,
+    "recommendedSegments": 4,
     "order": 0
 }

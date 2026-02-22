@@ -43,7 +43,6 @@ function parseApp(appId) {
             if (variantData) {
                 variantData.id = variantId;
                 unsortedVariants.push(variantData);
-                // variants[variantId] = variantData;
             }
         }
     }
@@ -73,7 +72,6 @@ function parseVariant(appId, variantId) {
             if (versionData) {
                 versionData.id = versionId;
                 unsortedVersions.push(versionData);
-                // versions[versionId] = versionData;
             }
         }
     }

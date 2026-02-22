@@ -1,14 +1,14 @@
 {
-    "current_build": 1,
-    "current_build_file_hashes": {
+    "currentBuild": 1,
+    "currentBuildFileHashes": {
         "app.jar": "826af5f2ea2910e94b75b1a099b2b4bc"
     },
-    "current_build_info": "",
-    "default_runtime": "java8",
-    "minimum_segments": 1,
+    "currentBuildInfo": "",
+    "defaultRuntime": "java8",
+    "minimumSegments": 1,
     "name": "Alpha 1.2.3_01",
-    "recommended_segments": 2,
-    "supported_runtimes": [
+    "recommendedSegments": 2,
+    "supportedRuntimes": [
         "java8"
     ],
     "order": 5

@@ -1,14 +1,14 @@
 {
-    "current_build": 1,
-    "current_build_file_hashes": {
+    "currentBuild": 1,
+    "currentBuildFileHashes": {
         "app.jar": "137ea1bfda922533b4a50295318295e0"
     },
-    "current_build_info": "https://piston-data.mojang.com/v1/objects/87ca53126694ff105edf65d8206a4529fbadd0a3/server.jar",
-    "default_runtime": "java8",
-    "minimum_segments": 2,
+    "currentBuildInfo": "https://piston-data.mojang.com/v1/objects/87ca53126694ff105edf65d8206a4529fbadd0a3/server.jar",
+    "defaultRuntime": "java8",
+    "minimumSegments": 2,
     "name": "18w16a",
-    "recommended_segments": 3,
-    "supported_runtimes": [
+    "recommendedSegments": 3,
+    "supportedRuntimes": [
         "java8",
         "java11",
         "java17",
