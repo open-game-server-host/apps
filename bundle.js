@@ -1,4 +1,8 @@
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import childProcess from "node:child_process";
+import { cpSync, existsSync, lstatSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+
+console.log();
+console.log("Bundling apps");
 
 function readJsonFile(path) {
     return JSON.parse(readFileSync(path).toString());
@@ -93,3 +97,46 @@ writeFileSync("output/apps.json", JSON.stringify(parseApps()));
 console.log();
 console.log("Written apps.json");
 console.log();
+
+console.log();
+console.log(`Bundling startup files`);
+
+rmSync("output/startup_files", { recursive: true, force: true });
+mkdirSync("output/startup_files");
+
+for (const appId of readdirSync("apps")) {
+    if (!lstatSync(`apps/${appId}`).isDirectory()) {
+        continue;
+    }
+
+    for (const variantId of readdirSync(`apps/${appId}`)) {
+        if (variantId === "startup_files") {
+            continue;
+        }
+        if (!lstatSync(`apps/${appId}/${variantId}`).isDirectory()) {
+            continue;
+        }
+        
+        const copyToFolder = `output/startup_files/${appId}/${variantId}`;
+        mkdirSync(copyToFolder, { recursive: true });
+
+        if (existsSync(`apps/${appId}/startup_files`)) {
+            cpSync(`apps/${appId}/startup_files`, copyToFolder, { recursive: true });
+        }
+
+        if (existsSync(`apps/${appId}/${variantId}/startup_files`)) {
+            cpSync(`apps/${appId}/${variantId}/startup_files`, copyToFolder, { recursive: true, force: true }); // Overwrites existing files
+        }
+
+        console.log(`  ${appId}/${variantId}`);
+    }
+}
+
+const child = childProcess.exec("cd output/startup_files && tar cf ../startup_files.tar .");
+child.stdout.pipe(process.stdout);
+child.stderr.pipe(process.stderr);
+child.on("exit", () => {
+    console.log();
+    console.log("Bundled startup files to output/startup_files.tar");
+    console.log();
+});
