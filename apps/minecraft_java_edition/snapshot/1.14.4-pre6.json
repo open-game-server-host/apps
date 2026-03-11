@@ -5,9 +5,9 @@
     },
     "currentBuildInfo": "https://piston-data.mojang.com/v1/objects/d7b8f310278a5ea9efef03b4e441f12524253c5d/server.jar",
     "defaultRuntime": "java8",
-    "minimumSegments": 2,
+    "minimumSegments": 3,
     "name": "1.14.4-pre6",
-    "recommendedSegments": 3,
+    "recommendedSegments": 4,
     "supportedRuntimes": [
         "java8",
         "java11",
