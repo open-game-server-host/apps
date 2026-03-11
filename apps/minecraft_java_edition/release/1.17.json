@@ -4,12 +4,14 @@
         "app.jar": "0f608a7ec2733afe0a9cfec6a8503ef0"
     },
     "currentBuildInfo": "https://piston-data.mojang.com/v1/objects/0a269b5f2c5b93b1712d0f5dc43b6182b9ab254e/server.jar",
-    "defaultRuntime": "java8",
+    "defaultRuntime": "java17",
     "minimumSegments": 3,
     "name": "1.17",
     "recommendedSegments": 4,
     "supportedRuntimes": [
-        "java8"
+        "java17",
+        "java21",
+        "java25"
     ],
     "order": 63
 }
